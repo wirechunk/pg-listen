@@ -6,7 +6,7 @@
   "description": "PostgreSQL LISTEN &  NOTIFY that finally works.",
   "author": "Andy Wermke (https://github.com/andywer)",
   "repository": "github:andywer/pg-listen",
-  "main": "./index.js",
+  "exports": "./dist/index.js",
   "typings": "./dist/index.d.ts",
   "scripts": {
     "build": "rm -rf dist && tsc",
